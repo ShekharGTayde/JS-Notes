@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Shekhar Tayde</h1>
+        <button>stop</button>
+    </div>
+</body>
+<script>
+    const name=function(){
+      
+        document.querySelector("h1").innerHTML="Rushikesh Mundhe"
+        
+    }
+   const changeMe = setTimeout(name,2000)  //setTimeout is used to to give a time to perform a operation
+   document.querySelector("button").addEventListener("click",()=>{
+        clearTimeout(changeMe)  //clearTimeout is used to clear the setTimeout function
+   },false)//false or true it is the event propagation .by default it is false .
+//    true mean capturing propagation means it perform upper func then lower.
+//    false mean bubbling propagation it mens it come form inner to outer.
+</script>
+</html>
+ 
+<!-- 
+#setInterval() it  is used to give a interval for operation which is continuesly perform with interval
+
+#clearInterval() it is used to clear the setInterval -->
+
+
+
+
