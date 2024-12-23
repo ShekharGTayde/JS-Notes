@@ -63,10 +63,10 @@
 //        age:22,
 //        city:"aurangabad",
 //        welcomeMessage:function(){
-//         const {name}=user
+//         // const {name}=user
 //         //  console.log(`${this.name},you just loggedIn`);
 //         //  console.log(`${user.name},you just loggedIn`);
-//          console.log(`${name},you just loggedIn`);//using dwstructring method 
+//         //  console.log(`${name},you just loggedIn`);//using dwstructring method 
          
 //        }
      

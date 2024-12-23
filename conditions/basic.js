@@ -1,5 +1,5 @@
 // const name="shekhar";
-// if(name!="shekhar"){
+// if(name=="shekhar"){
 //     console.log("its me");
     
 // }else{
@@ -31,7 +31,10 @@
 //         break;
 
 //     default:
-//         console.log("bol bappa ki jay");
+//         console.log("bol jay bappa ki");
         
 //         break;
 // }
+
+
+

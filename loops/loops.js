@@ -92,7 +92,7 @@
     
 // })
 // myCoding.forEach((myCoding) => {
-//     console.log(myCoding.fileName)
+    // console.log(myCoding.fileName)
     
 // });
 
@@ -109,8 +109,6 @@
 //         console.log( `${num} is odd`);
 //        }
 // }
-
-
 
 
 

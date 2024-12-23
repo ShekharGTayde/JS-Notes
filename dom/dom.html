@@ -7,21 +7,30 @@
    
 </head>
 <body class="parent" style="background-color: #212121;color: #fff;">
-    <div class="day">monday</div>
-    <div class="day">tuesday</div>
-    <div class="day">wednesday</div>
-    <div class="day">thursday</div> 
+    <div class="day" id="day">monday</div>
+    <div class="day" id="day">tuesday</div>
+    <div class="day" id="day">wednesday</div>
+    <div class="day" id="day">thursday</div> 
 
 
 
 <ul class="language">
     <li>Javascript</li>
-</ul>
+</ul>  
 
 
+ //for converting nodelist into array
+Array.from(nodelist_name)
 
-      
-</body>
+
+//for converting htmlcollection into array
+Array.from(HTMLCollection_name) 
+
+ <ul class="lang">
+    <li>javascript</li>
+</ul> 
+     
+ </body> 
 <script>
     const parent=document.querySelector(".parent")
     console.log(parent);
@@ -76,6 +85,7 @@ lastLang.remove();
 
 
 
-</script>
+</script> 
 
-</html>  -->
+
+</html>   -->

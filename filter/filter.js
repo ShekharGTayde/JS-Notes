@@ -7,10 +7,14 @@
 
 
 // reduce method
-// const num=[1,2,3,5,56,74,55,66,115,44,14,1]
+// const num=[1,2,3,5,56,74,55,66,115,44,14]
 // const myTotal=num.reduce((acc,current)=>{
 // return acc+current
 // },0)
 // console.log(myTotal);
+
+
+
+
 
 
